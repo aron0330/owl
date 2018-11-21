@@ -1,0 +1,17 @@
+ARCH=arm
+KERNEL_DTS=cubieboard6_s500_linux_cubiescreen
+#KERNEL_DTS=cubieboard6_s500_linux_dvk_rgb
+#KERNEL_DTS=cubieboard6_s500_linux
+KERNEL_DEFCONFIG=cubieboard6_s500_linux_defconfig
+UBOOT_DEFCONFIG=cubieboard6_s500_defconfig
+
+MISC_IMAGE_SIZE=48
+#unit:lba size:4G
+#BURN_UDISK_SIZE=8388608
+#ROOTFS_IMAGE=linaro-desktop-trusty-14.04-v1.1.tar.bz2
+#ROOTFS_IMAGE=cb6-debian.tar.bz2
+#ROOTFS_IMAGE=debian-desktop-jessie-linaro-armhf-rootfs-v1.0.tar.bz2
+#ROOTFS_IMAGE=debian-jessie-server.tar.bz2
+#ROOTFS_IMAGE=linaro-desktop-14.04.tar.bz2
+#ROOTFS_IMAGE=debian-desktop-jessie-linaro-armhf-rootfs-v1.1.tar.bz2
+
