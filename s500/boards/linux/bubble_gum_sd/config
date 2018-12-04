@@ -1,7 +1,8 @@
 ARCH=arm
-KERNEL_DTS=actduino_bubble_gum_sdboot_linux
-KERNEL_DEFCONFIG=actduino_bubble_gum_linux_defconfig
-UBOOT_DEFCONFIG=actduino_bubble_gum_v10_defconfig
+KERNEL_DTS=cubieboard6_s500_linux_cubiescreen
+#KERNEL_DTS=cubieboard6_s500_linux_dvk_rgb
+#KERNEL_DTS=cubieboard6_s500_linux
+KERNEL_DEFCONFIG=cubieboard6_s500_linux_defconfig
+UBOOT_DEFCONFIG=cubieboard6_s500_defconfig
 
 MISC_IMAGE_SIZE=48
-
